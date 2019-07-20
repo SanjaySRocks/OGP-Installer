@@ -11,4 +11,4 @@ sudo dpkg -i "ogp-panel-latest.deb"
 sudo cat /root/ogp_panel_mysql_info 
 sudo cat /root/ogp_user_password 
 
-echo -e "${GR} OGP Panel Installed ${NC}"
+echo -e "${GR}OGP Panel Installed${NC}"

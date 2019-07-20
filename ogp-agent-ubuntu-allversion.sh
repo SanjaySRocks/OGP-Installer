@@ -13,4 +13,4 @@ wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debia
 sudo dpkg -i "ogp-agent-latest.deb"
 sudo cat /root/ogp_user_password
 
-echo -e "${GR} OGP Agent Installed ${NC}"
+echo -e "${GR}OGP Agent Installed${NC}"
