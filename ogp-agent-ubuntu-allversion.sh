@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-GR='\033[1;32m'
-NC='\033[0m'
+greenMessage() {
+	echo -e "\\033[32;1m${@}\033[0m"
+}
+
 
 sudo apt-get update && apt-get upgrade -y
 sudo apt-get install libxml-parser-perl libpath-class-perl perl-modules screen rsync sudo e2fsprogs unzip subversion libarchive-extract-perl pure-ftpd libarchive-zip-perl libc6 libgcc1 git curl -y
@@ -13,4 +15,4 @@ wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debia
 sudo dpkg -i "ogp-agent-latest.deb"
 sudo cat /root/ogp_user_password
 
-echo -e "${GR}OGP Agent Installed${NC}"
+greenMessage "OGP Agent Installed"
