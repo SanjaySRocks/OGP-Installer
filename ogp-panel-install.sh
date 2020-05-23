@@ -1,5 +1,10 @@
 #!/bin/bash
 
+################################
+# Author :	github.com/sanjaysrocks
+# Program:	Install Open Game Panel for Ubuntu
+################################
+
 echo "* Select Your OS"
 echo "1) Ubuntu 16.04"
 echo "2) Ubuntu 18.04"
