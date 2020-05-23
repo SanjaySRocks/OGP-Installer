@@ -22,7 +22,8 @@ case $n in
   5) debian_9;;
   6) debian_8;;
   7) exit;;
-  *) echo "invalid option please enter 1/2/3/4 value only";;
+  *) echo "invalid option please enter 1/2/3/4 value only"; exit;
+	;;
 esac
 
 ubuntu_2004()
