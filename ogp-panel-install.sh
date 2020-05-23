@@ -15,13 +15,13 @@ echo "7) Quit"
 read -p "Where you want to install? (1/2/3/4/5/6) or 7 to Quit : " n
 
 case $n in
-  1) ubuntu_2004;;
-  2) ubuntu_1804;;
-  3) ubuntu_1604;;
-  4) debian_10;;
-  5) debian_9;;
-  6) debian_8;;
-  7) exit;;
+  1) ubuntu_2004 ;;
+  2) ubuntu_1804 ;;
+  3) ubuntu_1604 ;;
+  4) debian_10 ;;
+  5) debian_9 ;;
+  6) debian_8 ;;
+  7) exit ;;
   *) echo "invalid option please enter 1/2/3/4 value only"; exit;
 	;;
 esac
