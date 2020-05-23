@@ -1,13 +1,12 @@
 # OGP-Installer
 OGP Installation
-Panel Install Support: Ubuntu 16.04 / 18.04 / 20.04
-Agent Install Support: Ubuntu/Debian All Version 
+Panel Support: Ubuntu **16.04**/**18.04**/**20.04**
+Agent Support: All version of ubuntu & debian
 
-### Panel Install
+### Panel Installation
 
-    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-panel-ubuntu18.04.sh)
+    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-panel-install.sh)
+
+### Agent Installation 
 	
-
-### Agent Install
-	
-    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-agent-ubuntu-allversion.sh)
+    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-agent-install.sh)
