@@ -3,7 +3,7 @@ OGP is a game server control panel. It uses a web interface (PHP/MySQL) that con
 
 Panel Support:  
 Ubuntu **16.04**/**18.04**/**20.04**  
-Debian 10/9/8
+Debian 10/9/8  
 
 Agent Support: All version of ubuntu & debian
 
