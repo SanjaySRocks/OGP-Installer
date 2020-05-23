@@ -3,6 +3,10 @@
 # github.com/sanjaysrocks
 # https://github.com/SanjaySRocks/OGP-Installer/blob/master/ogp-panel-install.sh
 
+cyan() {
+	echo -e "\\033[36;1m${@}\033[0m"
+}
+
 ubuntu_2004()
 {
 	apt update
@@ -46,7 +50,7 @@ debian_8()
 	sudo apt install -y apache2 curl subversion php5 php5-gd php5-xmlrpc php5-curl php5-mysql php-pear phpmyadmin mysql-server libapache2-mod-php5 git
 }
 
-echo "* Select Your OS"
+cyan "Select Your Linux OS"
 echo "1) Ubuntu 20.04"
 echo "2) Ubuntu 18.04"
 echo "3) Ubuntu 16.04"
