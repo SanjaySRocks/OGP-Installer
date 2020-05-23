@@ -1,5 +1,7 @@
 #!/bin/bash
 # Installing OGP Agent on all ubuntu versions server
+# github.com/sanjaysrocks
+# https://github.com/SanjaySRocks/OGP-Installer/blob/master/ogp-agent-install.sh
 
 sudo apt update
 sudo apt upgrade -y

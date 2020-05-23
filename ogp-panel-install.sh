@@ -1,9 +1,7 @@
 #!/bin/bash
-
-################################
-# Author :	github.com/sanjaysrocks
-# Program:	Install Open Game Panel for Ubuntu
-################################
+# Install Open Game Panel
+# github.com/sanjaysrocks
+# https://github.com/SanjaySRocks/OGP-Installer/blob/master/ogp-panel-install.sh
 
 echo "* Select Your OS"
 echo "1) Ubuntu 20.04"
