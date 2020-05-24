@@ -14,8 +14,8 @@ Panel & Agent Script Support:
 
 ### Panel Installation
 
-    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-panel-install.sh)
+    wget https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-panel.sh && chmod +x install-panel.sh
 
 ### Agent Installation 
 	
-    bash <(curl -s https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/ogp-agent-install.sh)
+    wget https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-agent.sh && chmod +x install-agent.sh
