@@ -31,4 +31,5 @@ echo "Downloading and Installing Agent..."
 install_agent
 sudo cat /root/ogp_user_password
 
+rm -rf /root/ogp-agent-latest.deb
 echo "Installation Completed !"
