@@ -1,16 +1,18 @@
 # OGP-Installer
-OGP is a game server control panel. It uses a web interface (PHP/MySQL) that controls an agent (Perl) running on the servers hosting your games. It is used to start/stop/monitor game server instances. More features like a config file editor are coming soon.
+https://github.com/OpenGamePanel
 
-Panel & Agent Script Support:
+1-Click Agent & Panel Installation
 
 | OS     | Version |   |
 |--------|---------|---|
-| Ubuntu | 16.04   | ✅ |
+| Ubuntu | 20.04   | ✅ |
 |        | 18.04   | ✅ |
+|  	 | 16.04   | ✅ |
 |        | 20.04   | ✅ |
-| Debian | 8       | ✅ |
+|	 |	   |	|
+| Debian | 10      | ✅ |
 |        | 9       | ✅ |
-|        | 10      | ✅ |
+| 	 | 8       | ✅ |
 
 ### Panel Installation
 
