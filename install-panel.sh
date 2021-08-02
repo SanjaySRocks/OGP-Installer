@@ -28,6 +28,8 @@ install_debian_ubuntu(){
 
 if [ "$ID" == "debian" ]; then
 
+	apt install bc -y
+
 	if [ $(echo "$VERSION_ID == 10 || $VERSION_ID == 9 || $VERSION_ID == 8" | bc -l) != 1 ]; then
 		echo "Your Debian $VERSION_ID version not supported yet"
 		exit
@@ -85,6 +87,8 @@ fi
 
 if [ "$ID" == "ubuntu" ]; then
 
+	apt install bc -y
+	
 	if [ $(echo "$VERSION_ID == 20.04 || $VERSION_ID == 18.04 || $VERSION_ID == 16.04" | bc -l) != 1 ]; then
 		echo "Your Ubuntu $VERSION_ID version not supported yet"
 		exit
