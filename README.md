@@ -9,10 +9,12 @@ https://github.com/OpenGamePanel
 |        | 18.04   | ✅ |
 |  	 | 16.04   | ✅ |
 |        | 20.04   | ✅ |
-|	 |	   |	|
 | Debian | 10      | ✅ |
 |        | 9       | ✅ |
 | 	 | 8       | ✅ |
+| CentOS | 8      | ✅ |
+|        | 7       | ✅ |
+| 	 | 6       | ✅ |
 
 ### Panel Installation
 
