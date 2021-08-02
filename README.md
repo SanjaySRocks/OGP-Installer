@@ -1,5 +1,7 @@
 # OGP-Installer
-https://github.com/OpenGamePanel
+
+Script supports auto install agent or panel for any os supported
+
 
 1-Click Agent & Panel Installation
 
@@ -23,3 +25,6 @@ https://github.com/OpenGamePanel
 ### Agent Installation 
 	
     wget https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-agent.sh && chmod +x install-agent.sh
+
+### OpenGamePanel GitHub
+https://github.com/OpenGamePanel
