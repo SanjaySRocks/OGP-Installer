@@ -20,11 +20,11 @@ Script supports auto install agent or panel for any os supported
 
 ### Panel Installation
 
-    wget https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-panel.sh && chmod +x install-panel.sh
+    curl -o https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-panel.sh
 
 ### Agent Installation 
 	
-    wget https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-agent.sh && chmod +x install-agent.sh
+    curl -o https://raw.githubusercontent.com/SanjaySRocks/OGP-Installer/master/install-agent.sh
 
 ### OpenGamePanel GitHub
 https://github.com/OpenGamePanel
